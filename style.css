@@ -19,3 +19,15 @@ body {
     left: 50%;
     border-radius: 8px;
 }
+
+.container {
+    background-color: #eef4f8;
+    width: 100%;
+    min-height: 250px;
+    padding: 20px 0;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
