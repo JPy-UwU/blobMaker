@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    color: #010120;
 }
 
 body {
@@ -40,4 +44,30 @@ body {
         #025eaa
     );
     box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dimensions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0 40px 0;
+}
+
+label {
+    font-weight: 500;
+}
+
+input[type="number"] {
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #a0a0b0;
+    border-radius: 3px;
+}
+
+input[type="number"]:focus {
+    background-color: #f1f5fa;
+    border-color: #025eaa;
+    color: #025eaa;
 }
