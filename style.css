@@ -78,3 +78,11 @@ input[type="number"]:focus {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+
+input[type="range"] {
+    border: none;
+}
+
+input[type="range"]:focus {
+    border: none;
+}
